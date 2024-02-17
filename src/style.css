@@ -1,0 +1,122 @@
+/* src/style.css */
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: local("Poppins-Regular"),
+    url("./fonts/Poppins/Poppins-Regular.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Poppins-SemiBold";
+    src: local("Poppins-SemiBold"),
+    url("./fonts/Poppins/Poppins-SemiBold.woff2") format("woff2");
+  }
+
+body {
+    font-family: "Poppins-Regular" !important;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  .branding-1 , p{
+    color: #404041;
+  }
+
+  .branding-2{
+    color : #ff914d;
+  }
+  
+  .bg-branding-1{
+    background-color: #404041;
+  }
+
+  .bg-branding-2{
+    background-color: #ff914d;
+  }
+
+  .font-weight-bold {
+    font-weight: bold;
+
+    font-family: "Poppins-SemiBold" !important;
+  }
+
+  .section-gray {
+        background-color: #f8f8f8;
+  }
+
+  .bg-blue-dark {
+    background-color: #0f2039;
+  }
+
+  .button-branding-1{
+    background-color: #ff914d;
+    padding: 10px 25px;
+    color:#fff;
+    border-radius: 35px;
+    text-decoration: none;
+  }
+
+  .button-branding-1:hover{
+    background-color: #404041;
+  }
+
+  .button-branding-2:hover{
+    background-color: #ff914d;
+    color:#fff;
+  }
+
+  .button-branding-2{
+    background-color: #fff;
+    padding: 10px 25px;
+    color:#ff914d;
+    border-radius: 35px;
+    border: 1px solid #ff914d;
+    text-decoration: none;
+  }
+  /* Add more styles as needed */
+  
+
+  /* FAQ section */
+
+  .accordion-button {
+    background-color: unset !important;
+  }
+
+  .accordion-button:focus {
+    background-color: unset !important;
+    border: unset !important;
+    box-shadow: unset !important;
+  }
+
+  .accordion-item:first-of-type {
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+  }
+
+  .accordion-item:last-of-type {
+    border-bottom-right-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+  }
+
+  .accordion-body {
+    padding: 5px 27px;
+  }
+
+  .accordion-header button {
+    font-weight: bold;
+    color: #000 !important;
+  }
+
+  .container h3.mb-3 {
+    font-size: 44px !important;
+    margin-bottom: 25px !important;
+  }
+
+  .container h3 {
+    font-size: 44px !important;
+  }
